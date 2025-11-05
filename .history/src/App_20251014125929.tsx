@@ -1,0 +1,14 @@
+import { Hero } from "./components/Hero/Hero";
+import { Template } from "./components/Template/Template";
+// import { Card } from "./components/Card/Card";
+
+function App() {
+  return (
+    <>
+      <Hero />
+      <Template />>
+    </>
+  );
+}
+
+export default App;

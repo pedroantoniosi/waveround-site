@@ -1,0 +1,28 @@
+type ProductCardProps = {
+  image: string;
+  title: string;
+  oldPrice: string;
+  newPrice: string;
+};
+
+export function ProductCard({
+  image,
+  title,
+  oldPrice,
+  newPrice,
+}: ProductCardProps) {
+  return (
+    <div className="card-product">
+      <div className="card-product-img">
+        <img src={image} alt={title} />
+      </div>
+      <div className="card-product-caption">
+        <h2 className="card-product-title">{title}</h2>
+        <div className="row gap-1 align-center">
+          <s style={{ color: "#000" }}>{oldPrice}</s>
+          <strong style={{ fontWeight: "500" }}>{newPrice}</strong>
+        </div>
+      </div>
+    </div>
+  );
+}
