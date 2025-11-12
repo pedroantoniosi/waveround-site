@@ -1,0 +1,14 @@
+.card {
+    padding: 1rem;
+
+    & .card-img {
+        padding-top: 1rem;
+        background-color: #0c1821;
+        border-radius: .4rem;
+
+        & .sold {
+            padding: 1rem;
+            background-color: red;
+        }
+    }
+}

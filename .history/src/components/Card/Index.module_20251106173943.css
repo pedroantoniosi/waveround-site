@@ -1,0 +1,19 @@
+.card {
+    padding: 1rem;
+
+    & .card-img {
+        position: relative;
+        padding-top: 1rem;
+        background-color: #0c1821;
+        border-radius: .4rem;
+
+        & .sold {
+            position: absolute;
+            padding: .5rem 2rem;
+            background-color: red;
+            left: 5px;
+            bottom: 5px;
+            border-radius: 20rem;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.sponsors-slider {
+    display: flex;
+    justify-content: center;
+    align-items: cemter;
+    gap: 1rem;
+
+    & .card {
+        padding: 1rem;
+        background-color: #141414;
+    }
+}

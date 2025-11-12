@@ -1,0 +1,9 @@
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+}

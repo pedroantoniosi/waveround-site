@@ -1,0 +1,15 @@
+.sponsors-slider {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+    & .card {
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        background-color: #141414;
+        font-weight: bold;
+        border-radius: .4rem;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+    }
+}

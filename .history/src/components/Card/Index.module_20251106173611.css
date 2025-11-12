@@ -1,0 +1,7 @@
+.card {
+    padding: 1rem;
+
+    & .card-img {
+        background-color: 0c1821;
+    }
+}

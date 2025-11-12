@@ -1,0 +1,67 @@
+.heroContainer {
+    padding: 4rem;
+    display: flex;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100svh;
+
+    .title {
+        margin: 0 auto;
+        max-width: 768px;
+        font-size: 3.5rem;
+        font-weight: 500;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .text {
+        margin: 0 auto;
+        max-width: 800px;
+        text-align: center;
+        color: hsl(0, 0%, 80%);
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .heroCaption {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            text-align: center;
+
+            .heroSlider {
+                margin-top: 4rem;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 2rem;
+
+                .card {
+                    display: grid;
+                    place-items: center;
+                    padding: 4rem 2rem;
+                    background-color: #141414;
+                    font-size: 1.8rem;
+                    border-radius: 0.6rem;
+                    text-align: center;
+                    font-weight: 600;
+                    color: #fff;
+                    transition: transform 0.3s ease, background-color 0.3s ease;
+
+                    &:hover {
+                        transform: translateY(-4px);
+                        background-color: #1f1f1f;
+                    }
+                }
+            }
+        }
+    }
+}

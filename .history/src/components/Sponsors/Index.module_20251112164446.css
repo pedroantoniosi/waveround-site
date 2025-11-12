@@ -1,0 +1,12 @@
+.sponsors-slider {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+
+    & .card {
+        padding: 1rem;
+        background-color: #141414;
+        aspect-ratio: 1/1;
+    }
+}

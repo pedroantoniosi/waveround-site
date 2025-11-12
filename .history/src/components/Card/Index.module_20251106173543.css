@@ -1,0 +1,8 @@
+.card {
+    padding: 1rem;
+    background-color: red;
+
+    & .card-img {
+        background-color: 22333b;
+    }
+}
