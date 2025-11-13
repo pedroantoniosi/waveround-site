@@ -1,0 +1,9 @@
+.adContainer {
+    background-image: url('../../assets/img/banner-headset.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & .adCaption {
+        background-color: red;
+    }
+}

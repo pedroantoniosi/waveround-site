@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <div className="background-banner">
-        <Hero title="Alta performance começa com áudio de precisão" />
+        <Hero title="High performance starts with precision audio" />
         <Sponsors />
       </div>
       <ProductSection sectionTitle="Headsets">

@@ -1,0 +1,12 @@
+.adContainer {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../../assets/img/banner-headset.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    & .adCaption {
+        width: fit-content;
+        background-color: red;
+    }
+}

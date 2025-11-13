@@ -1,0 +1,5 @@
+.adContainer {
+    background-color: red;
+    min-height: 50svh;
+    background-image: url('../../assets/img/banner-headset.png');
+}

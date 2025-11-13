@@ -1,0 +1,34 @@
+.adContainer {
+    background-image: url('../../assets/img/banner-headset.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    & .adCaption {
+        width: fit-content;
+    }
+}
+
+
+.adContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adCaption {
+    text-transform: uppercase;
+
+    & .title {
+        color: #0078BB;
+        text-align: center;
+    }
+
+    & .subTitle {
+        font-size: 4rem;
+    }
+
+    & .text {
+        font-weight: bold;
+    }
+}

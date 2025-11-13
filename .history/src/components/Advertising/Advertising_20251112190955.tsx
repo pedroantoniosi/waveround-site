@@ -1,0 +1,17 @@
+import styles from "./Advertising.module.css";
+
+const Advertising = () => {
+  return (
+    <section
+      className={styles.adContainr}
+      role="banner"
+      aria-label="adContainer"
+    >
+      <div>
+        <h2>Olá mundo</h2>
+      </div>
+    </section>
+  );
+};
+
+export default Advertising;

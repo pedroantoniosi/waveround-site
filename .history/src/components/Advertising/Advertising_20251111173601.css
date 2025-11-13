@@ -1,0 +1,12 @@
+.btn-light {
+    width: fit-content;
+    background-color: #fff;
+    color: #000;
+    padding: .5rem 2rem;
+    border-radius: 20rem;
+
+    &:hover {
+        background-color: #000000;
+        color: #ffffff;
+    }
+}
